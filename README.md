@@ -2,10 +2,11 @@
 
 Sources repository for bodies icons used in EDDiscovery. 
 
-### How to contribute?
+## How to contribute?
 
 Send the unprocessed - or, better, the link to an unprocessed - high resolution in-game FSS screenshot to https://discord.gg/u75sDnm, in the #exploration channel. Or:
 
+### Create the icon:
 - Clone the repo: git clone https://github.com/EDDiscovery/ImageRepository.git
 
 - Open Templates.xcf in gimp (>= 2.10)
@@ -23,21 +24,33 @@ Send the unprocessed - or, better, the link to an unprocessed - high resolution 
 - Use your best photo retouching skills to have the blue semi-cricles disappear...
 ![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/5.png)
 
-- Then, when you are satisfied, apply the biggest circular mask to the image, and create a new layer from visible". The new layer MUST be abpve the crop layer - planets or stars, depending for your are working with. Probably planets, as stars are already all there...
+- Then, when you are satisfied, apply the biggest circular mask to the image, and create a new layer from visible". The new layer MUST be above the crop layer - planets or stars, depending for your are working with. Probably planets, as stars are already all there...
 ![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/6.png)
 
 - Apply a circular blur filter to ONLY the radial perimeter. That's for better border antialiasing.
 ![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/7.png)
 
 - Then, create an new composite layer with the previous whole image and the blurred perimeter. And apply a soft shadow to it. Choose the color which fit better with the body image:
-
-- You are good to go!
 ![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/8.png)
 
-- Do not forget to properly export it as a PNG:
+- You are good to go!
 ![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/9.png)
 
+- Do not forget to properly export it as a PNG:
 ![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/10.png)
-![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/11.png)
+
+### Provide the body details:
+- Open a SQLite editor. I use DB Browser for SQLite...
 ![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/12.png)
-![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/12.png)
+
+- Open BodiesDetails.db in it:
+![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/13.png)
+
+- Carefully create a new record, filling all relevant details:
+![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/14.png)
+
+- Save the DB!
+![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/15.png)
+
+Then, create a PR! ;)
+
