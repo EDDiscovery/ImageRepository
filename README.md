@@ -1,4 +1,10 @@
-# ImageRepository
-Image database
+# EDDiscovery Bodies Icons Repository
 
-All added image MUST have a corresponding row in the appropriate db, with all the relative details. They MUST be retrieved from the game, from an unprocessed FSS high resolution screenshot (Alt+F10). The Template.xcf file has all masks which has to be applied - for stellar and planetary bodies.
+Sources repository for bodies icons used in EDDiscovery. 
+
+### How to contribute?
+
+Send the unprocessed - or, better, the link to an unprocessed - high resolution in-game FSS screenshot to https://discord.gg/u75sDnm, in the #exploration channel. Or:
+
+- Clone the repo: git clone https://github.com/EDDiscovery/ImageRepository.git
+- Open Templates.xcf in gimp (>= 2.10)
