@@ -8,3 +8,5 @@ Send the unprocessed - or, better, the link to an unprocessed - high resolution 
 
 - Clone the repo: git clone https://github.com/EDDiscovery/ImageRepository.git
 - Open Templates.xcf in gimp (>= 2.10)
+
+![Open Templates.xcf in GIMP](https://raw.githubusercontent.com/EDDiscovery/ImageRepository/master/HowTo/1.png)
